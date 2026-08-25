@@ -1,0 +1,31 @@
+#pragma once
+
+#include <windows.h>
+#include <d3d11.h>
+#include <wrl/client.h>
+
+namespace Jif::GUI
+{
+	class DirectX11
+	{
+	public:
+		DirectX11() = default;
+
+		void Init(HWND hwnd);
+		void Display();
+		void Clear();
+
+		Microsoft::WRL::ComPtr<ID3D11Device> GetDevice() const;
+		Microsoft::WRL::ComPtr<ID3D11DeviceContext> GetDeviceContext() const;
+
+	private:
+		void InitRenderTargets();
+		void CreateDevice(DXGI_SWAP_CHAIN_DESC swapChainDesc);
+		DXGI_SWAP_CHAIN_DESC CreateSwapChainDesc(HWND hwnd);
+
+		Microsoft::WRL::ComPtr<ID3D11Device> mDx11Device;
+		Microsoft::WRL::ComPtr<ID3D11DeviceContext> mDx11DeviceContext;
+		Microsoft::WRL::ComPtr<IDXGISwapChain> mDx11SwapChain;
+		Microsoft::WRL::ComPtr<ID3D11RenderTargetView> mDx11RenderTargetView;
+	};
+}
