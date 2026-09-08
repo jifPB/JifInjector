@@ -12,6 +12,8 @@ a simple open source C++ mono injector
 
 
 # example
+example of a simple static method that can be used as the load entry point
+
 
 ```Csharp
 namespace Loading
