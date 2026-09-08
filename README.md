@@ -10,7 +10,7 @@ a simple open source C++ mono injector
 - enter the namespace, class and method
 - click inject
 
-
+```
 namespace Loading
 {
     public class Loader
@@ -24,5 +24,5 @@ namespace Loading
             Console.WriteLine("Loaded");
         }
     }
-}
+}```
 
