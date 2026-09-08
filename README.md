@@ -9,3 +9,20 @@ a simple open source C++ mono injector
 - select a program
 - enter the namespace, class and method
 - click inject
+
+
+namespace Loading
+{
+    public class Loader
+    {
+        public static void Load()
+        {
+            Console.WriteLine("Loading application...");
+            
+            // Initialize components
+            
+            Console.WriteLine("Loaded");
+        }
+    }
+}
+
