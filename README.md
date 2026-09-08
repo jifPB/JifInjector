@@ -10,15 +10,13 @@ a simple open source C++ mono injector
 - enter the namespace, class and method
 - click inject
 
-```
+```Csharp
 namespace Loading
 {
     public class Loader
     {
         public static void Load()
         {
-            Console.WriteLine("Loading application...");
-            
             // Initialize components
             
             Console.WriteLine("Loaded");
