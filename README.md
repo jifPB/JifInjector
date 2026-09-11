@@ -36,4 +36,5 @@ namespace Loading
 - this program currently only supports 64-bit
 - this program currently only supports windows
 - to clone this repository:
-```git clone https://github.com/jifPB/JifInjector```
+```powershell
+git clone https://github.com/jifPB/JifInjector```
