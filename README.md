@@ -37,4 +37,4 @@ namespace Loading
 - this program currently only supports windows
 - to clone this repository run:
 ```powershell
-git clone https://github.com/jifPB/JifInjector```
+git clone https://github.com/jifPB/JifInjector
