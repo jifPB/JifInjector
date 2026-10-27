@@ -31,10 +31,7 @@ namespace Loading
 ```
 
 # installation
-
-- get the precompiled program [here](https://github.com/jifPB/JifInjector/releases/)
-- the program currently only supports 64-bit
-- currently only available on windows
-- to clone this repository run:
+* get the precompiled program [here](https://github.com/jifPB/JifInjector/releases/)
+* to clone this repository run:
 ```powershell
 git clone https://github.com/jifPB/JifInjector
